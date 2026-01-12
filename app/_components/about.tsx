@@ -1,6 +1,6 @@
 import Image from "next/image"
-import background2 from "@/public/bg-2.jpg"
-import maps from "@/public/maps.jpg"
+import background2 from "@/public/bg2.svg"
+import maps from "@/public/maps.svg"
 
 export function About() {
     return (

@@ -1,8 +1,8 @@
 import Image from "next/image"
-import post1 from "@/public/post1.jpg"
-import post2 from "@/public/post2.jpg"
-import post3 from "@/public/post3.jpg"
-import post4 from "@/public/post4.jpg"
+import post1 from "@/public/post1.svg"
+import post2 from "@/public/post2.svg"
+import post3 from "@/public/post3.svg"
+import post4 from "@/public/post4.svg"
 
 export function Blog() {
     return (

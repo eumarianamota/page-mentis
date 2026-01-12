@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import psi1 from '@/public/psi1.jpg'
-import psi2 from '@/public/psi2.jpg'
-import psi3 from '@/public/psi3.jpg'
-import psi4 from '@/public/psi4.jpg'
+import psi1 from '@/public/psi1.svg'
+import psi2 from '@/public/psi2.svg'
+import psi3 from '@/public/psi3.svg'
+import psi4 from '@/public/psi4.svg'
 
 export function Team() {
     return (

@@ -1,6 +1,6 @@
 import Image from "next/image"
-import background from "@/public/background.jpg"
-import logo from "@/public/logo.png"
+import background from "@/public/background.svg"
+import logo from "@/public/logo.svg"
 import { Menu } from "lucide-react"
 import Link from "next/link"
 
