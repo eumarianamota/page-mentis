@@ -6,12 +6,12 @@ import psi4 from '@/public/psi4.jpg'
 
 export function Team() {
     return (
-        <section className="overflow-hidden bg-amber-50 text-gray-700 flex flex-col justify-center items-center py-20 px-10">
+        <section id="team" className="overflow-hidden bg-amber-50 text-gray-700 flex flex-col justify-center items-center py-20 px-10">
             <div className='flex flex-col justify-center'>
-                <h2 className="text-4xl text-center md:text-5xl lg:text-6xl font-bold white pb-15">Conheça nossa equipe</h2>
+                <h2 data-aos="zoom-in-up" className="text-4xl text-center md:text-5xl lg:text-6xl font-bold white pb-15">Conheça nossa equipe</h2>
 
                 <div className='flex flex-wrap justify-center gap-10'>
-                    <div>
+                    <div className='hover:scale-105 hover:shadow-xl hover:brightness-105 transition-discrete duration-300'>
                         <Image 
                             src={psi1} 
                             alt="Psi da equipe" 
@@ -20,7 +20,7 @@ export function Team() {
                         <h3 className='text-2xl text-center pt-2'>Dra. Larissa Amaral</h3>
                     </div>
 
-                    <div>
+                    <div className='hover:scale-105 hover:shadow-xl hover:brightness-105 transition-discrete duration-300'>
                         <Image 
                             src={psi2} 
                             alt="Psi da equipe" 
@@ -29,7 +29,7 @@ export function Team() {
                         <h3 className='text-2xl text-center pt-2'>Dra. Camilla Nogueira</h3>
                     </div>
 
-                    <div>
+                    <div className='hover:scale-105 hover:shadow-xl hover:brightness-105 transition-discrete duration-300'>
                         <Image 
                             src={psi3} 
                             alt="Psi da equipe" 
@@ -38,7 +38,7 @@ export function Team() {
                         <h3 className='text-2xl text-center pt-2'>Dra. Andressa Novaes</h3>
                     </div>
 
-                    <div>
+                    <div className='hover:scale-105 hover:shadow-xl hover:brightness-105 transition-discrete duration-300'>
                         <Image 
                             src={psi4} 
                             alt="Psi da equipe" 
@@ -48,8 +48,10 @@ export function Team() {
                     </div>
                 </div>
 
-                <button className="bg-amber-600 text-white py-4 px-10 w-fit self-center mt-15">
-                    SAIBA MAIS
+                <button data-aos="zoom-in-up" className="bg-amber-600 text-white py-4 px-10 w-fit self-center mt-15 hover:scale-105 hover:shadow-xl hover:brightness-105 transition-discrete duration-300">
+                    <a target='_blank' href="https://wa.me/556799998800?text=Olá, Mariana, tudo bem? Vim pela landing page de saúde mental, Mentis, desenvolvida por você.">
+                        SAIBA MAIS
+                    </a>
                 </button>
             </div>
         </section>
